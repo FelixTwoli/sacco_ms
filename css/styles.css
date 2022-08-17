@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+    background: linear-gradient(to right,
+     rgba(132, 250, 176, 1),
+      rgba(143, 211, 244, 1))
+    }
+
+html,h1,h2,h3,h4,h5,h6,a{
+        font-family: "Raleway";
+       }
+
+
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
+
+
+    .navbar{ 
+        background:hsl(239, 58%, 42%);
+    }
+
+    .nav-link , .navbar-brand{
+         color: #f4f4f4; 
+         cursor: pointer;
+         font-size: 20px;
+        }
+
+     .login, .sign-up {
+        color: #fff;
+     }   
+
+    /* .active:hover {
+        cursor: pointer;
+        color: #b98223;
+        
+    } */
+
+    .nav-link{ 
+        margin-right: 1em !important;
+    }
+
+    .nav-link:hover{ 
+        background: #f4f4f4; 
+        color: #f97300; }
+
+    .navbar-collapse{ 
+        justify-content: flex-end;
+    }
+
+    .navbar-toggler{  
+        background:#fff !important;
+    }
+
+    .navbar-collapse{
+        justify-content: flex-end;
+       }
+
+       .header{
+        background-image: url('./assets/bg-image.jpeg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+       }
+
+       .overlay{
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(244, 244, 244, 0.79);
+       }
+
+       .description{
+        position: absolute;
+        top: 30%;
+        margin: 0 auto;
+        padding: 2em;
+        
+    }
+    .description h1{
+     color:#F97300;
+    }
+    .description p{
+     color:#666;
+     font-size: 20px;
+     width: 100%;
+     line-height: 1.5;
+    /* margin-right: 20px; */
+    }
+
+       .blog{
+        background-color: inherit;
+        margin: 49em 0;
+        position: relative; 
+
+       }
+       .blog h1{
+        color:#F97300;
+        margin: 2em; 
+       }
+       .blog .card{
+        box-shadow: 0 0 20px #ccc;
+       }
+       .blog .card img{
+        width: 100%;
+        height: 12em;
+       }
+       .blog .card-title{
+        color:#F97300;
+         
+       }
+       .blog .card-body{
+        padding: 1em;
+       }
+
+
+        /* home styles */
+        
+        
+        .form-inline {
+            display: inline-block;
+        }
+        .navbar {
+            color: #fff;
+            background: hsl(260, 85%, 41%);
+            padding: 5px 16px;
+            border-radius: 0;
+            border: none;
+            box-shadow: 0 0 4px rgba(0,0,0,.1);
+        }
+
+
+        .navba .navbar-brand {
+            color: #efe5ff;
+            padding-left: 0;
+            padding-right: 50px;
+            font-size: 24px;		
+        }
+        .navba .navbar-brand:hover, .navbar .navbar-brand:focus {
+            color: #fff;
+        }
+        .navba .navbar-brand i {
+            font-size: 25px;
+            margin-right: 5px;
+        }
+       
+        .navba ul li i {
+            font-size: 18px;
+        }
+        .navba .nav-item span {
+            position: relative;
+            top: 3px;
+        }
+        .navba .nav > li a {
+            color: #efe5ff;
+            padding: 8px 15px;
+            font-size: 14px;		
+        }
+        .navba .nav > li a:hover, .navbar .nav > li a:focus {
+            color: #fff;
+            text-shadow: 0 0 4px rgba(255,255,255,0.3);
+        }
+        .navba .nav > li > a > i {
+            display: block;
+            text-align: center;
+        }
+        .navba .dropdown-menu i {
+            font-size: 16px;
+            min-width: 22px;
+        }
+        .navba .dropdown-menu .material-icons {
+            font-size: 21px;
+            line-height: 16px;
+            vertical-align: middle;
+            margin-top: -2px;
+        }
+        .navba .dropdown.open > a, .navbar .dropdown.open > a:hover, .navba .dropdown.open > a:focus {
+            color: #fff;
+            background: none !important;
+        }
+        .navba .dropdown-menu {
+            border-radius: 1px;
+            border-color: #e5e5e5;
+            box-shadow: 0 2px 8px rgba(0,0,0,.05);
+        }
+        .navba .dropdown-menu li a {
+            color: #777 !important;
+            padding: 8px 20px;
+            line-height: normal;
+        }
+        .navba .dropdown-menu li a:hover, .navbar .dropdown-menu li a:focus {
+            color: #333 !important;
+            background: transparent !important;
+        }
+        .navba .nav .active a, .navbar .nav .active a:hover, .navbar .nav .active a:focus {
+            color: #fff;
+            text-shadow: 0 0 4px rgba(255,255,255,0.2);
+            background: transparent !important;
+        }
+        .navba .nav .user-action {
+            padding: 9px 15px;
+        }
+        .navba .navbar-toggle {
+            border-color: #fff;
+        }
+        .navba .navbar-toggle .icon-bar {
+            background: #fff;
+        }
+        .navba .navbar-toggle:focus, .navbar .navbar-toggle:hover {
+            background: transparent;
+        }
+        .navba .navbar-nav .open .dropdown-menu {
+            background: #faf7fd;
+            border-radius: 1px;
+            border-color: #faf7fd;
+            box-shadow: 0 2px 8px rgba(0,0,0,.05);
+        }
+        .navba .divider {
+            background-color: #e9ecef !important;
+        }
+        @media (min-width: 1200px){
+            .form-inline .input-group {
+                width: 350px;
+                margin-left: 30px;
+            }
+        }
+        @media (max-width: 1199px){
+            .navba .nav > li > a > i {
+                display: inline-block;			
+                text-align: left;
+                min-width: 30px;
+                position: relative;
+                top: 4px;
+            }
+            .navba .navbar-collapse {
+                border: none;
+                box-shadow: none;
+                padding: 0;
+            }
+            .navba .navbar-form {
+                border: none;			
+                display: block;
+                margin: 10px 0;
+                padding: 0;
+            }
+            .navba .navbar-nav {
+                margin: 8px 0;
+            }
+            .navba .navbar-toggle {
+                margin-right: 0;
+            }
+            .input-group {
+                width: 100%;
+            }
+        }
+
+        /* input styling */
+        input {
+            border: 2px solid;
+            border-radius: 4px;
+            font-size: 1rem;
+            margin: 0.25rem;
+            min-width: 125px;
+            padding: 0.5rem;
+            transition: border-color 0.5s ease-out;
+          }
+          input:optional {
+            border-color: gray;
+          }
+          input:required:valid {
+            border-color: green;
+          }
+          
+          
+          input:required:focus:valid {
+            background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% lightgreen;
+            background-size: 25px;
+          }
+          input:focus:invalid {
+            background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightsalmon;
+            background-size: 25px;
+          }
